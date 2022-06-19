@@ -48,6 +48,9 @@ body {
 .logo-web {
   color: var(--color-logo-first);
 }
+.list {
+  list-style: none;
+}
 .title {
   font-size: 36px;
   line-height: 1.17;
@@ -70,6 +73,10 @@ body {
 }
 .header .menu-nav {
   letter-spacing: 0.02em;
+}
+.menu-nav .current {
+  color: var(--color-link-hover);
+  text-decoration: underline;
 }
 .contact-header {
   color: var(--color-link-contact-header);
